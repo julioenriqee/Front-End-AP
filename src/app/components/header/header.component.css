@@ -1,0 +1,8 @@
+div {
+  background-color: transparent;
+  display: block;
+  justify-content: space-between;
+  /* Esto coloca los elementos en los extremos laterales */
+  align-items: center;
+  background-color: black;
+}

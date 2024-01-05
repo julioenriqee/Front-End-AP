@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 50px;
+}
+
+.redes {
+  margin-right: 0.5em;
+}
+
+#logoap {
+  width: 150px;
+}
+
+.btn {
+  border-width: medium;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*--- Es necesario arreglar este codigo ---*/
+@media (max-width: 575px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .redes img {
+    margin: 0.2em;
+  }
+}

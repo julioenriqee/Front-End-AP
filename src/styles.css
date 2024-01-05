@@ -1,0 +1,13 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+:root {
+  color-scheme: light dark;
+}
+
+/* tuve problemas de nuevo pero esta vez con angular con estas dimenciones de pantalla y por el momento solo quedo arreglarlo manualmente no se podria ser de la manera correcta */
+@media (min-width: 300px) and (max-width: 600px) {
+  body {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
